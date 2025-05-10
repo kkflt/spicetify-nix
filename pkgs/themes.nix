@@ -85,6 +85,22 @@
           name = "Vibrant.min.js";
         }
       ];
+      patches = {
+        "xpui.js_find_8008" = ",(\\w+=)32,";
+        "xpui.js_repl_8008" = ",\${1}28,";
+      };
+      patches = {
+        "xpui.js_find_8008" = ",(\\w+=)32";
+        "xpui.js_repl_8008" = ",\${1}56";
+      };
+
+      overwriteAssets = true;
+
+      additionalCss = ''
+        .Root {
+          padding-top: 0px;
+        }
+      '';
     };
 
     text = {
