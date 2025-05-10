@@ -86,17 +86,9 @@
         }
       ];
       patches = {
-        "xpui.js_find_8008" = ",(\\w+=)32";
-        "xpui.js_repl_8008" = ",\${1}56";
+        "xpui.js_find_8008" = ",(\\w+=)32,";
+        "xpui.js_repl_8008" = ",\${1}28,";
       };
-
-      overwriteAssets = true;
-
-      additionalCss = ''
-        .Root {
-          padding-top: 0px;
-        }
-      '';
     };
 
     text = {
