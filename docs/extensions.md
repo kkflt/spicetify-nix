@@ -259,3 +259,7 @@ Simply displays the time remaining in the current queue.
 
 Enhance your full-screen song lyrics experience with this simple theme for
 Spotify lyrics page.
+
+### spicyLyrics
+
+Beautiful, synced lyrics

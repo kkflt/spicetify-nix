@@ -509,6 +509,19 @@
       "url": "https://github.com/rxri/spicetify-extensions/archive/d1bc50363939723d80ccef51f1b14b0893cf1c14.tar.gz",
       "hash": "0msp95jal0y1rmqj9m7m5c48hq5fqwhkddwj188k5q4v0jkb7l13"
     },
+    "spicyLyricsSrc": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "Spikerko",
+        "repo": "spicy-lyrics"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "b1b9354c3729bb7d23d40791f8981429a5bdbd31",
+      "url": "https://github.com/Spikerko/spicy-lyrics/archive/b1b9354c3729bb7d23d40791f8981429a5bdbd31.tar.gz",
+      "hash": "/SzTNplUzl+3DTWQ5pWDY3sNbpAlbH6FUepUI1NF/Iw="
+    },
     "starRatingsSrc": {
       "type": "Git",
       "repository": {

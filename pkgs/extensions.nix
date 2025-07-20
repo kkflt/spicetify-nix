@@ -189,6 +189,11 @@ let
     name = "simple-beautiful-lyrics.js";
   };
 
+  spicyLyrics = {
+    src = "${sources.spicyLyricsSrc}/builds";
+    name = "spicy-lyrics.mjs";
+  };
+
   sanitizeName =
     lib.replaceStrings
       [
@@ -276,6 +281,7 @@ in
       starRatings
       queueTime
       simpleBeautifulLyrics
+      spicyLyrics
     ]
 
   )
@@ -300,3 +306,4 @@ in
 // (mkExtAlias "starRatings.js" starRatings)
 // (mkExtAlias "queueTime.js" queueTime)
 // (mkExtAlias "simpleBeautifulLyrics.js" simpleBeautifulLyrics)
+// (mkExtAlias "spicyLyrics.js" spicyLyrics)
